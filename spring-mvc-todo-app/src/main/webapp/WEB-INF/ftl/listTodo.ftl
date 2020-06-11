@@ -28,6 +28,7 @@
 			  	<td>${todo.desc}</td> 
 			  	<td>${todo.targetDate?date}</td>
 			  	<td>${todo.done?c}</td>
+			  	<td> <a href="show-update?id=${todo.id}" class="btn btn-success">UPDATE</a> </td>
 			  	<td> <a href="delete?id=${todo.id}" class="btn btn-danger">DELETE</a> </td>
 			  <tr>
 	  	</#list>

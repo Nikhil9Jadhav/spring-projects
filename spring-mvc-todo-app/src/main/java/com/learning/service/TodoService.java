@@ -47,5 +47,23 @@ public class TodoService {
 		}
 		return filteredTodos;
 	}
+	
+	public Todo retrieveToById(int id) {
+		
+		
+		for(Todo todoObject : todoList) {
+				
+			if(todoObject.getId() == id) {
+				return todoObject;
+			}
+		}
+		return null;
+	}
+	
+	public void updateTodo(Todo todo) {
+		todoList.remove(todo);
+		System.out.println("Herereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee======================================================================================================================================");
+		todoList.add(todo);
+	}
 
 }
