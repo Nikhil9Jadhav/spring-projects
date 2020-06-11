@@ -12,3 +12,4 @@ Added spring-mvc-todo-app
 # 3
 Date 11/6/20
 Added update utility for todo app.
+Added new spring-mvc-boot project
