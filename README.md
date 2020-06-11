@@ -9,6 +9,6 @@ Added spring-mvc-project-template.
 Date 8/6/20
 Added spring-mvc-todo-app
 
-#3
+# 3
 Date 11/6/20
 Added update utility for todo app.
