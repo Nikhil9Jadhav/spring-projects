@@ -1,5 +1,0 @@
-com\learning\controller\TodoController.class
-com\learning\controller\LoginController.class
-com\learning\service\LoginService.class
-com\learning\service\TodoService.class
-com\learning\model\Todo.class
